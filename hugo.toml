@@ -1,0 +1,140 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Jason Wang'
+theme = 'hermit-V2'
+
+#[languages]
+#  [languages.en]
+#    title = 'CHANGE ME'
+#    [languages.en.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 1
+#  [languages.fr]
+#    title = 'CHANGE ME(FR)'
+#    [languages.fr.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 2
+#  [languages.it]
+#    title = 'CHANGE ME(IT)'
+#    [languages.it.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 3
+ 
+# title = "CHANGE ME"
+# enableGitInfo = true
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+#hasCJKLanguage = true
+
+rssLimit = 10
+
+copyright = "CHANGE ME"
+enableEmoji = true
+
+#[services]
+#  [services.disqus]
+#    shortname = ''
+#  [services.googleAnalytics]
+#    id = ''
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+
+[params.author]
+  name = ""
+  about = "CHANGE SITE AUTHOR ABOUT"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+  # category = "categories"
+
+# Enable to get proper Mathjax support
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.extensions]
+#      [markup.goldmark.extensions.passthrough]
+#        enable = true
+#        [markup.goldmark.extensions.passthrough.delimiters]
+#          block = [['\[', '\]'], ['$$', '$$']]
+#          inline = [['\(', '\)']]
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Computer Engineering @ University of Toronto"
+  footerCopyright = "Jason Wang"
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  # pinned = "Pinned Posts"
+  # pinnedSVGname = "pin"
+  # descriptionInPosts= true
+  # initialPublish = "Initally Posted on: "
+  
+  [[params.socialLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jason-jh-wang/"
+
+#   [[params.socialLinks]]
+#     name = "codepen"
+#     url = "https://twitter.com/"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/wj-jason"
+
+[menu]
+
+  [[menu.main]]
+    name = "About Me"
+    url = "about/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Research"
+    url = "research/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Blog"
+    url = "blog/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Resume"
+    url = "files/resume.pdf"
+    weight = 40
