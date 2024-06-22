@@ -403,7 +403,7 @@ table {
 /* Media query for mobile devices */
 @media screen and (max-width: 760px) {
   #spotlight {
-      min-height: 100%; /* Set min-height to 100% for mobile devices */
+      min-height: 75vh; /* Set min-height to 100% for mobile devices */
   }
 }
 
