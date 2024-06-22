@@ -140,5 +140,5 @@ expiryDate = ["expiryDate"]
 
   [[menu.main]]
     name = "Resume"
-    url = "files/resume.pdf"
+    url = "resume.pdf"
     weight = 40
