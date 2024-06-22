@@ -68,6 +68,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: ${{ env.DEPLOY == 'true' }}  # Conditional deployment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
