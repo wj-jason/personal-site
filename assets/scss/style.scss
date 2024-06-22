@@ -590,6 +590,7 @@ p.img-404 {
 }
 
 .post-header {
+  // 1.2em
   margin-top: 1.2em;
   line-height: normal;
 
@@ -849,6 +850,7 @@ a.footnote-ref {
 //
 @media (min-width: 800px) {
   .site-main {
+    // 3
     margin-top: 3em;
   }
 
