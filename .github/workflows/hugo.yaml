@@ -61,7 +61,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Add CNAME for custom domain
-        run: echo "example.com" > ./public/CNAME  # Replace example.com with your actual custom domain
+        run: echo "jasonjwang.ca" > ./public/CNAME  # Replace example.com with your actual custom domain
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
