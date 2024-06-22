@@ -138,8 +138,4 @@ expiryDate = ["expiryDate"]
     url = "blog/"
     weight = 30
 
-  [[menu.main]]
-    name = "Resume"
-    url = "files/resume.pdf"
-    weight = 40
   
