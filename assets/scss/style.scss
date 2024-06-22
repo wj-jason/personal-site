@@ -503,7 +503,8 @@ p.img-404 {
   .post-year {
     padding-top: 6px;
     margin-right: 1.8em;
-    font-size: 1.6em;
+    // was 1.6em
+    font-size: 0em;
     @include dimmed;
 
     &:hover {

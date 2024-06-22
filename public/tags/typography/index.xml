@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typography on Jason Wang</title>
+    <link>http://localhost:1313/tags/typography/</link>
+    <description>Recent content in Typography on Jason Wang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>CHANGE ME</copyright>
+    <lastBuildDate>Fri, 20 Oct 2023 20:06:06 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/typography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Vision</title>
+      <link>http://localhost:1313/research/computer_vision/</link>
+      <pubDate>Fri, 20 Oct 2023 20:06:06 +0530</pubDate>
+      <guid>http://localhost:1313/research/computer_vision/</guid>
+      <description>Computer Vision Project </description>
+    </item>
+    <item>
+      <title>Test post</title>
+      <link>http://localhost:1313/blog/test_post/</link>
+      <pubDate>Fri, 20 Oct 2023 20:06:06 +0530</pubDate>
+      <guid>http://localhost:1313/blog/test_post/</guid>
+      <description>Welcome to my test blog post I like math&#xA;$$x=2$$ </description>
+    </item>
+  </channel>
+</rss>
