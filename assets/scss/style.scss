@@ -261,6 +261,13 @@ table {
   animation-duration: 0s; /* Disable animation */
 }
 
+/* Media query for mobile devices */
+@media screen and (max-width: 760px) {
+  body {
+      padding-top: 12vh; /* Adjust for mobile devices */
+  }
+}
+
 .hdr-wrapper {
   display: flex;
   justify-content: space-between;

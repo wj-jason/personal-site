@@ -1,7 +1,3 @@
----
-mathjax: false
----
-
 ## Hello! 👋
 
 My names Jason, I'm an Electrical & Computer Engineering student at the University of Toronto, going into my 2nd year. I'm interested in research and development in ML, low level design, computer hardware, and low latency systems.
