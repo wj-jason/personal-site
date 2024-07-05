@@ -156,8 +156,8 @@ table {
 .feather {
   display: inline-block;
   vertical-align: -.125em;
-  width: 1em;
-  height: 1em;
+  width: 0em; // original 1em
+  height: 0em; // origial 1em
 }
 
 .sub-menu {
@@ -534,13 +534,13 @@ p.img-404 {
   }
 
   .post-item {
-    border-bottom: 1px $highlight-grey dashed;
+    border-bottom: 0px $highlight-grey dashed; // original: 1px
 
     a {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      padding: 12px 0;
+      padding: 0px 0; // original: 12 px
     }
   }
 
